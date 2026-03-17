@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature android:name="android.hardware.usb.host" />
+    <!-- Needed only if your app looks for Bluetooth devices. -->
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <!-- Needed only if your app uses Bluetooth scan results to derive physical location. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"
+        tools:remove="android:maxSdkVersion" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:remove="android:maxSdkVersion" />
+
+    <!-- Needed to use the cameras. -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- Ignore min sdk requirements of devices libraries, this will be checked in runtime -->
+    <!-- Ty for your help, we'll take it from here. -->
+    <uses-sdk tools:overrideLibrary="cn.com.pixsur.irissdk, cn.com.pixsur.devicesdk" />
+
+</manifest>

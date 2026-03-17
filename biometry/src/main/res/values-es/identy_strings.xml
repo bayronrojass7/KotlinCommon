@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string-array name="flash_entries">
+        <item>Flash Off</item>
+        <item>Flash Auto</item>
+        <item>Flash On</item>
+        <item>Linterna</item>
+        <item>Ojo Rojo</item>
+        <item>Flash de Pantalla Auto</item>
+        <item>Flash de Pantalla On</item>
+    </string-array>
+    <string-array name="flash_icons">
+        <item>drawable/flash_off</item>
+        <item>drawable/flash_auto</item>
+        <item>drawable/flash_on</item>
+        <item>drawable/flash_torch</item>
+        <item>drawable/flash_red_eye</item>
+        <item>drawable/flash_auto</item>
+        <item>drawable/flash_on</item>
+    </string-array>
+    <string-array name="flash_values">
+        <item>flash_off</item>
+        <item>flash_auto</item>
+        <item>flash_on</item>
+        <item>flash_torch</item>
+        <item>flash_red_eye</item>
+        <item>flash_frontscreen_auto</item>
+        <item>flash_frontscreen_on</item>
+    </string-array>
+    <string-array name="focus_mode_entries">
+        <item>Focus Auto</item>
+        <item>Focus Infinito</item>
+        <item>Focus Macro</item>
+        <item>Focus Bloqueado</item>
+        <item>Focus Manual</item>
+        <item>Focus Fijo</item>
+        <item>Focus EDOF</item>
+        <item>Focus Foto Continua</item>
+        <item>Focus Video Continuo</item>
+    </string-array>
+    <string-array name="focus_mode_icons">
+        <item>drawable/focus_mode_auto</item>
+        <item>drawable/focus_mode_infinity</item>
+        <item>drawable/focus_mode_macro</item>
+        <item>drawable/focus_mode_locked</item>
+        <item>drawable/focus_mode_manual</item>
+        <item>drawable/focus_mode_fixed</item>
+        <item>drawable/focus_mode_edof</item>
+        <item>drawable/focus_mode_continuous_picture</item>
+        <item>drawable/focus_mode_continuous_video</item>
+    </string-array>
+    <string-array name="focus_mode_values">
+        <item>focus_mode_auto</item>
+        <item>focus_mode_infinity</item>
+        <item>focus_mode_macro</item>
+        <item>focus_mode_locked</item>
+        <item>focus_mode_manual2</item>
+        <item>focus_mode_fixed</item>
+        <item>focus_mode_edof</item>
+        <item>focus_mode_continuous_picture</item>
+        <item>focus_mode_continuous_video</item>
+    </string-array>
+    <string-array name="preference_angle_highlight_color_entries">
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Amarillo</item>
+        <item>Morado</item>
+        <item>Blanco</item>
+    </string-array>
+    <string-array name="preference_angle_highlight_color_values">
+        <item>#f44336</item>
+        <item>#14e715</item>
+        <item>#2196f3</item>
+        <item>#ffeb3b</item>
+        <item>#9c27b0</item>
+        <item>#ffffff</item>
+    </string-array>
+    <string-array name="preference_burst_interval_entries">
+        <item>Sin espera</item>
+        <item>1s</item>
+        <item>2s</item>
+        <item>3s</item>
+        <item>5s</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>20s</item>
+        <item>30s</item>
+        <item>1m</item>
+        <item>2m</item>
+        <item>5m</item>
+        <item>10m</item>
+        <item>20m</item>
+        <item>30m</item>
+        <item>1h</item>
+        <item>2h</item>
+    </string-array>
+    <string-array name="preference_burst_interval_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>1800</item>
+        <item>3600</item>
+        <item>7200</item>
+    </string-array>
+    <string-array name="preference_burst_mode_entries">
+        <item>Apagado</item>
+        <item>2x</item>
+        <item>3x</item>
+        <item>4x</item>
+        <item>5x</item>
+        <item>10x</item>
+        <item>Ilimitado</item>
+    </string-array>
+    <string-array name="preference_burst_mode_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>10</item>
+        <item>unlimited</item>
+    </string-array>
+    <string-array name="preference_crop_guide_entries">
+        <item>Ninguno</item>
+        <item>1 (1:1)</item>
+        <item>1.25 (5:4)</item>
+        <item>1.33 (4:3)</item>
+        <item>1.4 (7:4)</item>
+        <item>1.5 (3:2)</item>
+        <item>1.78 (16:9)</item>
+        <item>1.85 (37:20)</item>
+        <item>2.33 (21:9)</item>
+        <item>2.35 (47:20)</item>
+        <item>2.4 (12:5)</item>
+    </string-array>
+    <string-array name="preference_crop_guide_values">
+        <item>crop_guide_none</item>
+        <item>crop_guide_1</item>
+        <item>crop_guide_1.25</item>
+        <item>crop_guide_1.33</item>
+        <item>crop_guide_1.4</item>
+        <item>crop_guide_1.5</item>
+        <item>crop_guide_1.78</item>
+        <item>crop_guide_1.85</item>
+        <item>crop_guide_2.33</item>
+        <item>crop_guide_2.35</item>
+        <item>crop_guide_2.4</item>
+    </string-array>
+    <string-array name="preference_expo_bracketing_n_images_entries">
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="preference_expo_bracketing_n_images_values">
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="preference_expo_bracketing_stops_entries">
+        <item>0.5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="preference_expo_bracketing_stops_values">
+        <item>0.5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="preference_front_camera_mirror_entries">
+        <item>No espejo</item>
+        <item>Foto espejo</item>
+    </string-array>
+    <string-array name="preference_front_camera_mirror_values">
+        <item>preference_front_camera_mirror_no</item>
+        <item>preference_front_camera_mirror_photo</item>
+    </string-array>
+    <string-array name="preference_grid_entries">
+        <item>Ninguno</item>
+        <item>3x3</item>
+        <item>Phi 3x3</item>
+        <item>4x2</item>
+        <item>Puntero</item>
+        <item>Golden (1)</item>
+        <item>Golden (2)</item>
+        <item>Golden (3)</item>
+        <item>Golden (4)</item>
+        <item>Triángulo (1)</item>
+        <item>Triángulo (2)</item>
+        <item>Diagonales</item>
+    </string-array>
+    <string-array name="preference_grid_values">
+        <item>preference_grid_none</item>
+        <item>preference_grid_3x3</item>
+        <item>preference_grid_phi_3x3</item>
+        <item>preference_grid_4x2</item>
+        <item>preference_grid_crosshair</item>
+        <item>preference_grid_golden_spiral_right</item>
+        <item>preference_grid_golden_spiral_left</item>
+        <item>preference_grid_golden_spiral_upside_down_right</item>
+        <item>preference_grid_golden_spiral_upside_down_left</item>
+        <item>preference_grid_golden_triangle_1</item>
+        <item>preference_grid_golden_triangle_2</item>
+        <item>preference_grid_diagonals</item>
+    </string-array>
+    <string-array name="preference_immersive_mode_entries">
+        <item>Apagado</item>
+        <item>Ocultar sólo los botones virtuales de navegación en pantalla</item>
+        <item>Ocultar GUI</item>
+        <item>Ocultar todo</item>
+    </string-array>
+    <string-array name="preference_immersive_mode_values">
+        <item>immersive_mode_off</item>
+        <item>immersive_mode_low_profile</item>
+        <item>immersive_mode_gui</item>
+        <item>immersive_mode_everything</item>
+    </string-array>
+    <string-array name="preference_lock_orientation_entries">
+        <item>Sin bloqueo</item>
+        <item>Bloquear en vertical</item>
+        <item>Bloquear en horizontal</item>
+    </string-array>
+    <string-array name="preference_lock_orientation_values">
+        <item>none</item>
+        <item>landscape</item>
+        <item>portrait</item>
+    </string-array>
+    <string-array name="preference_preview_size_entries">
+        <item>Maximizar el tamaño de la vista previa</item>
+        <item>Igualar el tamaño de la foto (WYSIWYG)</item>
+    </string-array>
+    <string-array name="preference_preview_size_values">
+        <item>preference_preview_size_display</item>
+        <item>preference_preview_size_wysiwyg</item>
+    </string-array>
+    <string-array name="preference_raw_entries">
+        <item>JPEG solo</item>
+        <item>JPEG y DNG (RAW)</item>
+    </string-array>
+    <string-array name="preference_raw_values">
+        <item>preference_raw_no</item>
+        <item>preference_raw_yes</item>
+    </string-array>
+    <string-array name="preference_rotate_preview_entries">
+        <item>No rotar</item>
+        <item>Rotar 180 grados</item>
+    </string-array>
+    <string-array name="preference_rotate_preview_values">
+        <item>0</item>
+        <item>180</item>
+    </string-array>
+    <string-array name="preference_save_zulu_time_entries">
+        <item>Tiempo Local</item>
+        <item>UTC (Zulu)</item>
+    </string-array>
+    <string-array name="preference_save_zulu_time_values">
+        <item>local</item>
+        <item>zulu</item>
+    </string-array>
+    <string-array name="preference_stamp_dateformat_entries">
+        <item>Por defecto</item>
+        <item>yyyy/mm/dd</item>
+        <item>dd/mm/yyyy</item>
+        <item>mm/dd/yyyy</item>
+        <item>Ninguno</item>
+    </string-array>
+    <string-array name="preference_stamp_dateformat_values">
+        <item>preference_stamp_dateformat_default</item>
+        <item>preference_stamp_dateformat_yyyymmdd</item>
+        <item>preference_stamp_dateformat_ddmmyyyy</item>
+        <item>preference_stamp_dateformat_mmddyyyy</item>
+        <item>preference_stamp_dateformat_none</item>
+    </string-array>
+    <string-array name="preference_stamp_entries">
+        <item>Sin sello</item>
+        <item>Fotos con sello</item>
+    </string-array>
+    <string-array name="preference_stamp_fontsize_entries">
+        <item>6</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="preference_stamp_fontsize_values">
+        <item>6</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="preference_stamp_gpsformat_entries">
+        <item>Por defecto</item>
+        <item>Grados/minutos/segundos</item>
+        <item>Ninguno</item>
+    </string-array>
+    <string-array name="preference_stamp_gpsformat_values">
+        <item>preference_stamp_gpsformat_default</item>
+        <item>preference_stamp_gpsformat_dms</item>
+        <item>preference_stamp_gpsformat_none</item>
+    </string-array>
+    <string-array name="preference_stamp_style_entries">
+        <item>Texto sombreado</item>
+        <item>Texto plano</item>
+    </string-array>
+    <string-array name="preference_stamp_style_values">
+        <item>preference_stamp_style_shadowed</item>
+        <item>preference_stamp_style_plain</item>
+    </string-array>
+    <string-array name="preference_stamp_timeformat_entries">
+        <item>Por defecto</item>
+        <item>12 horas</item>
+        <item>24 horas</item>
+        <item>Ninguno</item>
+    </string-array>
+    <string-array name="preference_stamp_timeformat_values">
+        <item>preference_stamp_timeformat_default</item>
+        <item>preference_stamp_timeformat_12hour</item>
+        <item>preference_stamp_timeformat_24hour</item>
+        <item>preference_stamp_timeformat_none</item>
+    </string-array>
+    <string-array name="preference_stamp_values">
+        <item>preference_stamp_no</item>
+        <item>preference_stamp_yes</item>
+    </string-array>
+    <string-array name="preference_timer_entries">
+        <item>Off</item>
+        <item>1s</item>
+        <item>2s</item>
+        <item>3s</item>
+        <item>5s</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>20s</item>
+        <item>30s</item>
+        <item>1m</item>
+        <item>2m</item>
+        <item>5m</item>
+    </string-array>
+    <string-array name="preference_timer_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="preference_touch_capture_entries">
+        <item>Ninguno</item>
+        <item>Un solo toque</item>
+        <item>Doble toque</item>
+    </string-array>
+    <string-array name="preference_touch_capture_values">
+        <item>none</item>
+        <item>single</item>
+        <item>double</item>
+    </string-array>
+    <string-array name="preference_ui_placement_entries">
+        <item>Interfaz de usuario para zurdos</item>
+        <item>Interfaz de usuario para diestros</item>
+    </string-array>
+    <string-array name="preference_ui_placement_values">
+        <item>ui_left</item>
+        <item>ui_right</item>
+    </string-array>
+    <string-array name="preference_video_bitrate_entries">
+        <item>Por defecto</item>
+        <item>100kbps</item>
+        <item>200kbps</item>
+        <item>500kbps</item>
+        <item>1Mbps</item>
+        <item>2Mbps</item>
+        <item>3Mbps</item>
+        <item>4Mbps</item>
+        <item>5Mbps</item>
+        <item>6Mbps</item>
+        <item>7Mbps</item>
+        <item>8Mbps</item>
+        <item>9Mbps</item>
+        <item>10Mbps</item>
+        <item>15Mbps</item>
+        <item>20Mbps</item>
+        <item>30Mbps</item>
+        <item>40Mbps</item>
+        <item>50Mbps</item>
+        <item>60Mbps</item>
+        <item>70Mbps</item>
+        <item>80Mbps</item>
+        <item>90Mbps</item>
+        <item>100Mbps</item>
+    </string-array>
+    <string-array name="preference_video_bitrate_values">
+        <item>default</item>
+        <item>100000</item>
+        <item>200000</item>
+        <item>500000</item>
+        <item>1000000</item>
+        <item>2000000</item>
+        <item>3000000</item>
+        <item>4000000</item>
+        <item>5000000</item>
+        <item>6000000</item>
+        <item>7000000</item>
+        <item>8000000</item>
+        <item>9000000</item>
+        <item>10000000</item>
+        <item>15000000</item>
+        <item>20000000</item>
+        <item>30000000</item>
+        <item>40000000</item>
+        <item>50000000</item>
+        <item>60000000</item>
+        <item>70000000</item>
+        <item>80000000</item>
+        <item>90000000</item>
+        <item>100000000</item>
+    </string-array>
+    <string-array name="preference_volume_keys_entries">
+        <item>Hacer una foto (o iniciar/detener la grabación de vídeo)</item>
+        <item>Enfocar</item>
+        <item>Ampliar/reducir</item>
+        <item>Cambiar el nivel de exposición</item>
+        <item>Activar/desactivar el nivel automático</item>
+        <item>Cambiar el volumen del dispositivo</item>
+        <item>No hacer nada</item>
+    </string-array>
+    <string-array name="preference_volume_keys_values">
+        <item>volume_take_photo</item>
+        <item>volume_focus</item>
+        <item>volume_zoom</item>
+        <item>volume_exposure</item>
+        <item>volume_auto_stabilise</item>
+        <item>volume_nothing</item>
+        <item>volume_really_nothing</item>
+    </string-array>
+    <bool name="isTablet">false</bool>
+    <color name="boxes">#77bae7</color>
+    <color name="boxes_transparent">#7577bae7</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorError">#FF4081</color>
+    <color name="colorPrimary">#77bae7</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimarytransparent">#7577bae7</color>
+    <color name="id_button_center">#FF1bb5c7</color>
+    <color name="id_button_end">#FF859cd4</color>
+    <color name="id_button_start">#FF1bb5c7</color>
+    <color name="id_error">@android:color/holo_red_light</color>
+    <color name="id_fin_boxes">#77bae7</color>
+    <color name="id_location_error_bg">#FF1bb5c7</color>
+    <color name="id_result_center">#f9096e8c</color>
+    <color name="id_result_end">#f926365d</color>
+    <color name="id_result_start">#f90c193e</color>
+    <color name="id_retake">#FF7F50</color>
+    <color name="id_scanning_bar">#FFFFFF</color>
+    <color name="id_success">@android:color/holo_green_light</color>
+    <color name="identy_fin_alert_bg">@android:color/white</color>
+    <color name="identy_fin_alert_button_color">@android:color/white</color>
+    <color name="identy_fin_alert_button_text_color">@android:color/black</color>
+    <color name="identy_fin_alert_text_color">@android:color/black</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="id_h1">22sp</dimen>
+    <dimen name="id_h2">21sp</dimen>
+    <dimen name="id_h3">20sp</dimen>
+    <dimen name="id_h4">19sp</dimen>
+    <dimen name="id_h5">18sp</dimen>
+    <dimen name="id_h6">17sp</dimen>
+    <dimen name="id_img_qc_messages">19sp</dimen>
+    <string name="about_available">Disponible</string>
+    <string name="about_copy_to_clipboard">Copiar al portapapeles</string>
+    <string name="about_not_available">No disponible</string>
+    <string name="action_popup">Configuración de popups</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="angle">Ángulo</string>
+    <string name="answer_no">No</string>
+    <string name="answer_yes">Sí</string>
+    <string name="auto_stabilise_info">Nivelación automática girará automáticamente las fotos para que aparezcan niveladas. Tenga en cuenta que esto significa que las imágenes saldrán con una resolución ligeramente inferior (debido a la rotación y el recorte necesarios).</string>
+    <string name="auto_stabilise_not_supported">Lo sentimos, el nivel automático no es compatible con este dispositivo.</string>
+    <string name="back_camera">Cámara trasera</string>
+    <string name="bright">Claro</string>
+    <string name="camera">Cámara</string>
+    <string name="camera_error">Error de cámara grave</string>
+    <string name="cancelled_burst_mode">Modo ráfaga cancelado</string>
+    <string name="cancelled_timer">Temporizador cancelado</string>
+    <string name="cant_access_folder">No es posible acceder a esta carpeta</string>
+    <string name="cant_write_folder">No es posible escribir en esta carpeta</string>
+    <string name="capturing">Capturando…</string>
+    <string name="choose_another_folder">Elija otra carpeta</string>
+    <string name="clear_folder_history">Borrar el historial de carpetas</string>
+    <string name="clear_folder_history_question">Borrar el historial de carpetas?</string>
+    <string name="color_effect">Efecto de color</string>
+    <string name="dark">Oscuro</string>
+    <string name="direction">Dirección</string>
+    <string name="dont_show_again">No volver a mostrar</string>
+    <string name="enter_new_folder">Introduzca un nuevo nombre de carpeta</string>
+    <string name="exposure">Exposición</string>
+    <string name="exposure_compensation">Exposure compensation</string>
+    <string name="exposure_lock">Compensación de la exposición</string>
+    <string name="exposure_locked">Exposición Bloqueada</string>
+    <string name="exposure_shutter_speed">Velocidad de obturación</string>
+    <string name="exposure_unlocked">Exposición desbloqueada</string>
+    <string name="failed_create_folder">Error al crear carpeta</string>
+    <string name="failed_to_auto_stabilise">Fallo de autonivelación</string>
+    <string name="failed_to_open_camera_1">FALLÓ AL ABRIR LA CÁMARA.</string>
+    <string name="failed_to_open_camera_2">LA CÁMARA PUEDE ESTAR EN USO</string>
+    <string name="failed_to_open_camera_3">POR OTRA APLICACIÓN?</string>
+    <string name="failed_to_process_hdr">Error al crear imagen HDR</string>
+    <string name="failed_to_reconnect_camera">Fallo al reconectar con la cámara</string>
+    <string name="failed_to_save_photo">No se ha podido guardar la foto</string>
+    <string name="failed_to_save_photo_raw">No se ha podido guardar la foto RAW</string>
+    <string name="failed_to_stamp">Fallo al estampar información en la foto</string>
+    <string name="failed_to_start_camera_preview">No se puede iniciar la vista previa de la cámara</string>
+    <string name="failed_to_take_picture">No se ha podido hacer la foto</string>
+    <string name="flash_mode">Modo Flash</string>
+    <string name="focus_distance">Distancia de enfoque</string>
+    <string name="focus_mode">Modo de enfoque</string>
+    <string name="folder_exists">La carpeta ya existe</string>
+    <string name="fps">FPS</string>
+    <string name="free_memory">Libre</string>
+    <string name="front_camera">Cámara frontal</string>
+    <string name="gallery">Galería</string>
+    <string name="gb_abbreviation">GB</string>
+    <string name="grid">Rejilla</string>
+    <string name="hdr_info">El modo HDR es útil para tomas con una gran variación de brillo. Funciona tomando varias fotos con diferentes exposiciones y combinándolas para crear la imagen final.\n\nTenga en cuenta que el HDR no es adecuado para escenas con movimiento rápido, y puede resultar en una reproducción del color menos precisa.\n\nHacer fotos en modo HDR será más lento.</string>
+    <string name="id_authentication_retake">RETAKE INSEGURO</string>
+    <string name="id_authentication_successful">Autentificado</string>
+    <string name="id_authentication_unsuccessful">Autenticación fallida</string>
+    <string name="id_capture_completed">Captura finalizada</string>
+    <string name="id_captured">Capturado</string>
+    <string name="id_capturing">Capturando..</string>
+    <string name="id_close">Cerrar</string>
+    <string name="id_confirm_exit">Confirmar Salida</string>
+    <string name="id_continue">CONTINUAR</string>
+    <string name="id_dshow_again">No volver a mostrar</string>
+    <string name="id_enrollment_completed">ENRROLAMIENTO COMPLETADO</string>
+    <string name="id_exit_text">¿Desea salir de la captura?</string>
+    <string name="id_fin_initializing">Inizializando…</string>
+    <string name="id_finger_matching">matching ...</string>
+    <string name="id_good_quality">Buena calidad</string>
+    <string name="id_hand_closer">Por favor, acerque la mano</string>
+    <string name="id_hand_further_away">Aleje la mano</string>
+    <string name="id_hold">Por favor, espere</string>
+    <string name="id_hold_0">Por favor, espere</string>
+    <string name="id_hold_1">Por favor, espere 1</string>
+    <string name="id_hold_2">Por favor, espere 2</string>
+    <string name="id_hold_3">Por favor, espere 3</string>
+    <string name="id_hold_4">Por favor, espere 4</string>
+    <string name="id_hold_5">Por favor, espere 5</string>
+    <string name="id_hold_6">Por favor, espere 6</string>
+    <string name="id_hold_still">Asegúrese de mantenerse quieto hasta la captura automática </string>
+    <string name="id_identy_template_format">Formato de la plantilla IDENTY</string>
+    <string name="id_image_cd_todo">TODO</string>
+    <string name="id_in_front_camera">2.Coloque los dedos delante de la cámara</string>
+    <string name="id_index">ÍNDICE    </string>
+    <string name="id_index_finger">dedo índice</string>
+    <string name="id_inside_guide">Por favor, esté dentro de la guía</string>
+    <string name="id_keep_fingers">1.Extienda y mantenga juntos los dedos</string>
+    <string name="id_keep_fingers_together">mantenga los dedos juntos</string>
+    <string name="id_left_thumb"> PULGAR IZQUIERDO</string>
+    <string name="id_little">MEÑIQUE   </string>
+    <string name="id_little_finger">dedo índice</string>
+    <string name="id_location_error_1">La captura no se ha podido realizar </string>
+    <string name="id_location_error_2">Cambiar ubicación</string>
+    <string name="id_location_error_3">La captura no se ha podido realizar </string>
+    <string name="id_location_error_off">La captura no se ha podido realizar </string>
+    <string name="id_middle">MEDIO   </string>
+    <string name="id_middle_finger">dedo medio</string>
+    <string name="id_next">SIGUIENTE</string>
+    <string name="id_next_detection">¿Pasar a la siguiente mano?</string>
+    <string name="id_next_hand_confirm">Confirmar Siguiente Detección</string>
+    <string name="id_no">NO</string>
+    <string name="id_no_match">SIN COINCIDENCIAS</string>
+    <string name="id_no_msg"/>
+    <string name="id_not_good_quality">mala calidad.</string>
+    <string name="id_ok">OK</string>
+    <string name="id_pic_qc_title">FALLO DE CALIDAD DE IMAGEN</string>
+    <string name="id_processing">Procesando …</string>
+    <string name="id_qc_retake">Tenemos que volver a tomar la foto</string>
+    <string name="id_quality_failed">Calidad de imagen fallida</string>
+    <string name="id_retake_additional_tip">Consejos adicionales</string>
+    <string name="id_retake_match">No se ha encontrado, inténtelo de nuevo</string>
+    <string name="id_retake_q">¿volver a tomar?</string>
+    <string name="id_retake_string">volver a tomar</string>
+    <string name="id_retake_tip_1">Tus dedos miran a la cámara</string>
+    <string name="id_retake_tip_2">Tus dedos están dentro de la caja azul </string>
+    <string name="id_retake_tip_3">Utilice iluminación interior normal</string>
+    <string name="id_retry">Reintentar</string>
+    <string name="id_right_thumb">PULGAR DERECHO</string>
+    <string name="id_ring">ANULAR     </string>
+    <string name="id_ring_finger">dedo anular</string>
+    <string name="id_searching_left">Buscando dedos  izquierdos …</string>
+    <string name="id_searching_left_index">Buscando índice  izquierdo …</string>
+    <string name="id_searching_left_little">Buscando meñique  izquierdo …</string>
+    <string name="id_searching_left_middle">Buscando medio  izquierdo …</string>
+    <string name="id_searching_left_ring">Buscando anular  izquierdo …</string>
+    <string name="id_searching_left_thumb">Buscando pulgar  izquierdo …</string>
+    <string name="id_searching_right">Buscando dedos  derechos …</string>
+    <string name="id_searching_right_index">Buscando índice  derecho …</string>
+    <string name="id_searching_right_little">Buscando meñique  derecho …</string>
+    <string name="id_searching_right_middle">Buscando medio  derecho …</string>
+    <string name="id_searching_right_ring">Buscando anular  derecho …</string>
+    <string name="id_searching_right_thumb">Buscando pulgar  derecho …</string>
+    <string name="id_searching_thumb">Buscando pulgares …</string>
+    <string name="id_select_hand">por favor seleccione al menos una mano</string>
+    <string name="id_spoof">SPOOF</string>
+    <string name="id_spoof_additional_tip">Consejos adicionales</string>
+    <string name="id_spoof_question">¿Utiliza manos reales para autentificarse?</string>
+    <string name="id_spoof_tip_1">Utilice tus dedos de verdad</string>
+    <string name="id_spoof_tip_2">Utilice iluminación interior normal  </string>
+    <string name="id_spoof_tip_3">Pruebe con un lugar/fondo diferente</string>
+    <string name="id_spoof_title">Falsificación detectada</string>
+    <string name="id_stable">Por favor, manténgase estable</string>
+    <string name="id_stay_still_blue">3.Quédese quieto dentro del rectángulo azul</string>
+    <string name="id_success_match">COINCIDENCIA CORRECTA</string>
+    <string name="id_success_string">Éxito</string>
+    <string name="id_thumb">PULGAR    </string>
+    <string name="id_thumb_finger">dedo índice</string>
+    <string name="id_try_again">Volver a intentar</string>
+    <string name="id_try_again_in">Vuelva a intentarlo en : </string>
+    <string name="id_wait_auto">4.Espere a la captura automática (Hasta que se apague el flash)</string>
+    <string name="id_wsq_compression">WSQ Relación de compresión</string>
+    <string name="id_yes">SÍ</string>
+    <string name="id_zero">0</string>
+    <string name="infinite">Infonito</string>
+    <string name="intro_ok">OK (Este mensaje no se volverá a mostrar)</string>
+    <string name="intro_text">Touch to focus, and press the blue camera button to take photos. For more help, click Online help from Settings. Open Camera is completely free. If you like this app, please consider buying my donate app :) (see link in Settings, or Online help).\n\nPrivacy Policy: Location permission is required for geotagging, but this is disabled by default. If enabled, your location is encoded in the saved files (and it is only used for this purpose).</string>
+    <string name="iso">ISO</string>
+    <string name="max_duration">Duración máxima</string>
+    <string name="max_filesize">Tamaño máximo del archivo</string>
+    <string name="mb_abbreviation">MB</string>
+    <string name="metres_abbreviation">m</string>
+    <string name="new_folder">Nueva carpeta</string>
+    <string name="no_gallery_app">No gallery app available</string>
+    <string name="no_permission">PERMISSIONS NOT AVAILABLE</string>
+    <string name="not_supported">not supported on your device</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="parent_folder">Parent Folder</string>
+    <string name="permission_rationale_camera">Camera permission is required to enable the camera</string>
+    <string name="permission_rationale_storage">Storage read/write permission is required to save photos</string>
+    <string name="permission_rationale_title">Permission required</string>
+    <string name="photo">Photo</string>
+    <string name="photo_deleted">Photo deleted</string>
+    <string name="photo_mode">Photo Mode</string>
+    <string name="photo_mode_dro">DRO</string>
+    <string name="photo_mode_expo_bracketing">Expo {}</string>
+    <string name="photo_mode_expo_bracketing_full">Exposure Bracketing</string>
+    <string name="photo_mode_hdr">HDR</string>
+    <string name="photo_mode_noise_reduction">NR</string>
+    <string name="photo_mode_standard">Std</string>
+    <string name="preference_about">About</string>
+    <string name="preference_about_summary">App and debug information</string>
+    <string name="preference_angle_highlight_color">Angle/altitude highlight color</string>
+    <string name="preference_angle_highlight_color_summary">Highlight color for when camera is nearly level</string>
+    <string name="preference_auto_stabilise">Auto-level</string>
+    <string name="preference_auto_stabilise_summary">Images will be rotated so they are automatically level (photos only) (slower to take photos, and may fail on devices with too low memory)</string>
+    <string name="preference_background_photo_saving">Use background thread</string>
+    <string name="preference_background_photo_saving_summary">Whether to save photos on a background thread (for faster operation)</string>
+    <string name="preference_burst_interval">Burst mode interval</string>
+    <string name="preference_burst_interval_summary">Delay (if any) between taking photos in burst mode</string>
+    <string name="preference_burst_mode">Burst</string>
+    <string name="preference_burst_mode_summary">Take multiple photos in succession</string>
+    <string name="preference_calibrate_level">Calibrate level angle</string>
+    <string name="preference_calibrate_level_calibrate">Calibrate</string>
+    <string name="preference_calibrate_level_calibrated">Level calibrated</string>
+    <string name="preference_calibrate_level_calibration_reset">Level calibration reset</string>
+    <string name="preference_calibrate_level_dialog">Please place your device on a flat horizontal surface so that it is level (either in portrait or landscape orientation), and then select Calibrate.\n\nPress Reset to remove the calibration from your device.\n\nPress back button to cancel.</string>
+    <string name="preference_calibrate_level_reset">Reset</string>
+    <string name="preference_calibrate_level_summary">This option calibrates your device\'s accelerometer, so the auto-level and on-screen level/angle options work correctly.</string>
+    <string name="preference_camera2_fake_flash">Use alternative flash method</string>
+    <string name="preference_camera2_fake_flash_summary">Enable this if your device has buggy flash behaviour with Camera2 API</string>
+    <string name="preference_camera2_fast_burst">Enable fast HDR/expo burst</string>
+    <string name="preference_camera2_fast_burst_summary">Allows faster capture of the HDR/expo shots. Disable this if your device has problems when taking photos with HDR or Expo photo modes.</string>
+    <string name="preference_category_camera_controls">Camera Controls</string>
+    <string name="preference_category_camera_effects">Camera Effects</string>
+    <string name="preference_category_camera_quality">Photo and Video Settings</string>
+    <string name="preference_category_online">Misc</string>
+    <string name="preference_category_photo_debugging">Debugging options</string>
+    <string name="preference_category_stamp">Photo Stamp</string>
+    <string name="preference_category_video_debugging">Debugging options</string>
+    <string name="preference_color_effect">Apply a color effect</string>
+    <string name="preference_color_effect_summary">Applies the selected color effect to the photo</string>
+    <string name="preference_crop_guide">Show a crop guide</string>
+    <string name="preference_crop_guide_summary">A crop guide displays a rectangle showing what the specified aspect ratio looks like - useful if you plan to crop the photo/video afterwards to a different aspect ratio. Requires WYSIWYG photo mode, or being in video mode.</string>
+    <string name="preference_donate">Donate to support development</string>
+    <string name="preference_donate_summary">If you like this app, please consider making a donation to support development. You can do this by purchasing my "donation app" - click this option to open up the page for my donation app. Thanks!</string>
+    <string name="preference_expo_bracketing_n_images">Exposure Bracketing</string>
+    <string name="preference_expo_bracketing_n_images_summary">Number of images for exposure bracketing mode</string>
+    <string name="preference_expo_bracketing_stops">Exposure Bracketing Stops</string>
+    <string name="preference_expo_bracketing_stops_summary">How many stops to subtract/add for the darkest/brightest image</string>
+    <string name="preference_exposure">Set the exposure compensation</string>
+    <string name="preference_exposure_summary">Set to 0 for the default exposure compensation</string>
+    <string name="preference_face_detection">Face detection</string>
+    <string name="preference_face_detection_summary">Use face detection instead of focus areas</string>
+    <string name="preference_free_memory">Show free memory</string>
+    <string name="preference_free_memory_summary">Display the remaining device storage space on screen</string>
+    <string name="preference_grid">Show a grid</string>
+    <string name="preference_grid_summary">Display one of various grids</string>
+    <string name="preference_hdr_save_expo">Save all images for HDR mode</string>
+    <string name="preference_hdr_save_expo_summary">If enabled, when using HDR photo mode, the three base exposure images will be saved as well as the final HDR photo. Note this will make saving slower, especially if options like \"Stamp photos\" or Auto-level are also used.</string>
+    <string name="preference_immersive_mode">Immersive mode</string>
+    <string name="preference_immersive_mode_summary">Options for \"immersive mode\" behaviour</string>
+    <string name="preference_iso">Set the ISO</string>
+    <string name="preference_iso_summary">A higher value means more sensitive to light (may not work on some devices)</string>
+    <string name="preference_keep_display_on">Keep display on</string>
+    <string name="preference_keep_display_on_summary">If enabled, the screen won\'t switch off while the main Open Camera UI is active</string>
+    <string name="preference_lock_orientation">Lock photo/video orientation</string>
+    <string name="preference_lock_orientation_summary">If set, the orientation of the device will be ignored, and the orientation of the photo/video will be with respect to the specified orientation</string>
+    <string name="preference_max_brightness">Force maximum brightness</string>
+    <string name="preference_max_brightness_summary">Force screen display to be at maximum brightness, rather than device default</string>
+    <string name="preference_nr_save">Noise Reduction original images</string>
+    <string name="preference_nr_save_all">Save all original images (slow)</string>
+    <string name="preference_nr_save_no">Don\'t save original images</string>
+    <string name="preference_nr_save_single">Save single original image</string>
+    <string name="preference_nr_save_summary">Whether to save original images in noise reduction mode. Note this can make saving photos much slower.</string>
+    <string name="preference_online_help">Online help</string>
+    <string name="preference_online_help_summary">Launch the Open Camera website in your browser</string>
+    <string name="preference_pause_preview">Pause after taking photo</string>
+    <string name="preference_pause_preview_summary">Pause the screen after taking a photo, with the option to share or delete the photo</string>
+    <string name="preference_preview_size">Preview size</string>
+    <string name="preference_preview_size_summary">How to choose the preview size</string>
+    <string name="preference_quality">Image quality</string>
+    <string name="preference_quality_summary">Set the image JPEG quality of saved photo images (default value is 90%%)</string>
+    <string name="preference_raw">RAW</string>
+    <string name="preference_raw_summary">Whether to save in RAW (DNG) format</string>
+    <string name="preference_reset">Reset settings</string>
+    <string name="preference_reset_question">Are you sure you want to reset all Open Camera settings to default?</string>
+    <string name="preference_reset_summary">Reset all Open Camera settings to default</string>
+    <string name="preference_resolution">Camera resolution</string>
+    <string name="preference_resolution_summary">Set the resolution of photos taken by the camera</string>
+    <string name="preference_rotate_preview">Rotate preview</string>
+    <string name="preference_rotate_preview_summary">Option to rotate the preview (won\'t affect resultant photos/videos)</string>
+    <string name="preference_save_photo_prefix">Save photo prefix</string>
+    <string name="preference_save_photo_prefix_summary">The prefix to use for the save filenames for photos</string>
+    <string name="preference_save_zulu_time">Time format for filename</string>
+    <string name="preference_save_zulu_time_summary">Whether to use local or UTC (Coordinated Universal Time) time for naming photos and videos</string>
+    <string name="preference_scene_mode">Apply a scene mode</string>
+    <string name="preference_scene_mode_summary">Optimise the photo for different scenes</string>
+    <string name="preference_screen_camera_controls_more">More camera controls…</string>
+    <string name="preference_screen_gui">On screen GUI…</string>
+    <string name="preference_screen_photo_settings">Photo settings…</string>
+    <string name="preference_show_angle">Show angle</string>
+    <string name="preference_show_angle_line">Show angle line</string>
+    <string name="preference_show_angle_line_summary">Display horizontal level line</string>
+    <string name="preference_show_angle_summary">Display the current device orientation angle on screen</string>
+    <string name="preference_show_battery">Show battery</string>
+    <string name="preference_show_battery_summary">Display the current battery level on screen</string>
+    <string name="preference_show_geo_direction">Show compass direction</string>
+    <string name="preference_show_geo_direction_summary">Display the compass direction of the device on screen</string>
+    <string name="preference_show_iso">Show ISO</string>
+    <string name="preference_show_iso_summary">Display the current ISO level. In flash auto mode, a flash symbol will also indicate when flash will fire. (Requires Camera2 API.)</string>
+    <string name="preference_show_time">Show time</string>
+    <string name="preference_show_time_summary">Display the current time on screen</string>
+    <string name="preference_show_toasts">Show \"toast\" messages</string>
+    <string name="preference_show_toasts_summary">Whether to display the popup \"toast\" messages</string>
+    <string name="preference_show_when_locked">Show camera when locked</string>
+    <string name="preference_show_when_locked_summary">If enabled, Open Camera will still show above any lockscreen (you\'ll still have to unlock to access Settings, Gallery etc)</string>
+    <string name="preference_show_zoom">Show zoom</string>
+    <string name="preference_show_zoom_controls">Show zoom -/+ controls</string>
+    <string name="preference_show_zoom_controls_summary">Show the -/+ buttons for zoom control</string>
+    <string name="preference_show_zoom_slider_controls">Show zoom slider control</string>
+    <string name="preference_show_zoom_slider_controls_summary">Show the slider for zoom control</string>
+    <string name="preference_show_zoom_summary">Display the current camera zoom level on screen (when zoomed in)</string>
+    <string name="preference_shutter_sound">Shutter sound</string>
+    <string name="preference_shutter_sound_summary">Play a sound when taking a photo</string>
+    <string name="preference_stamp">Stamp photos</string>
+    <string name="preference_stamp_dateformat">Datestamp format</string>
+    <string name="preference_stamp_dateformat_summary">Specify the format of the datestamp (if enabled)</string>
+    <string name="preference_stamp_font_color">Font color</string>
+    <string name="preference_stamp_font_color_summary">Font color to use when stamping text onto photos</string>
+    <string name="preference_stamp_fontsize">Font size</string>
+    <string name="preference_stamp_fontsize_summary">Font size to use when stamping text onto photos</string>
+    <string name="preference_stamp_gpsformat">GPS stamp format</string>
+    <string name="preference_stamp_gpsformat_summary">Specify the format of the GPS stamp (if enabled)</string>
+    <string name="preference_stamp_style">Text style</string>
+    <string name="preference_stamp_style_summary">Style to use when stamping text onto photos</string>
+    <string name="preference_stamp_timeformat">Timestamp format</string>
+    <string name="preference_stamp_timeformat_summary">Specify the format of the timestamp (if enabled)</string>
+    <string name="preference_startup_focus">Perform auto-focus on startup</string>
+    <string name="preference_startup_focus_summary">Whether to auto-focus when Open Camera is started. If you have the problem of flash turning on when starting, disable this option</string>
+    <string name="preference_take_photo_border">Show border when taking photo</string>
+    <string name="preference_take_photo_border_summary">Display a border on the display to indicate taking a photo</string>
+    <string name="preference_textstamp">Custom text</string>
+    <string name="preference_textstamp_summary">Stamp photos with a custom text</string>
+    <string name="preference_thumbnail_animation">Show thumbnail animation</string>
+    <string name="preference_thumbnail_animation_summary">Display moving thumbnail animation when taking a photo</string>
+    <string name="preference_timer">Timer</string>
+    <string name="preference_timer_beep">Timer beep</string>
+    <string name="preference_timer_beep_summary">Beep when timer is counting down or for burst mode delay</string>
+    <string name="preference_timer_speak">Voice timer countdown</string>
+    <string name="preference_timer_speak_summary">Speak the countdown for timer or burst mode delay (from 60 seconds)</string>
+    <string name="preference_timer_summary">Set a timer for the camera</string>
+    <string name="preference_touch_capture">Touch to capture</string>
+    <string name="preference_touch_capture_summary">Take a photo just by touching or double-tapping the preview</string>
+    <string name="preference_ui_placement">UI placement</string>
+    <string name="preference_ui_placement_summary">Whether to have a left-handed or right-handed user interface</string>
+    <string name="preference_use_camera2">Use Camera2 API</string>
+    <string name="preference_use_camera2_summary">Enables Android 5\'s Camera2 API - offers extra features, but may not work properly on all devices (will cause a restart)</string>
+    <string name="preference_using_saf">Use Storage Access Framework</string>
+    <string name="preference_using_saf_summary">Whether to use Android 5\'s Storage Access Framework for saving photos and videos</string>
+    <string name="preference_volume_keys">Volume keys</string>
+    <string name="preference_volume_keys_summary">Set behaviour for when volume keys are pressed</string>
+    <string name="preference_white_balance">Set the white balance</string>
+    <string name="preference_white_balance_summary">Choose a setting to adjust the white balance</string>
+    <string name="raw_info">DNG files contain the full uncompressed and unprocessed information from your camera.\n\nMost gallery apps won\'t recognise DNG, instead they should be used with specialised apps like Snapseed or Lightroom.\n\nNote that various processing options such as "Stamp photos" and "Auto-level" will only apply to the JPEG images, and not the DNG images.\n\nDNG files take up a lot of space; a file explorer app may be useful for transferring or deleting them.\n\nDNG files are only saved in Standard or DRO photo modes.</string>
+    <string name="repeats_to_go">repeats to go</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="saf_cancelled">Storage Access Framework cancelled</string>
+    <string name="saf_permission_failed">Unable to save to this folder</string>
+    <string name="scene_mode">Scene mode</string>
+    <string name="screen_is_locked">Screen is locked\nswipe the screen to unlock</string>
+    <string name="screen_lock_message_1">[LOCKED:</string>
+    <string name="screen_lock_message_2">Swipe to unlock]</string>
+    <string name="seconds_abbreviation">s</string>
+    <string name="share">Share Photo</string>
+    <string name="sorry">Sorry</string>
+    <string name="speech_recognizer_started">Say \"cheese\"</string>
+    <string name="started_timer">Started timer</string>
+    <string name="strLeft">Left</string>
+    <string name="strRight">Right</string>
+    <string name="strSnap">TAKE SNAP</string>
+    <string name="switch_to_back_camera">Switch to back camera</string>
+    <string name="switch_to_front_camera">Switch to front camera</string>
+    <string name="switch_to_photo">Switch to photo mode</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="taking_photo">Taking photo</string>
+    <string name="title_activity_img_view">ImgView</string>
+    <string name="trash">Delete Last Picture</string>
+    <string name="unlocked">Unlocked</string>
+    <string name="white_balance">White balance</string>
+    <string name="zoom">Zoom</string>
+</resources>

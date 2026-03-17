@@ -1,0 +1,15 @@
+-keep class cn.com.aratek.dev.DeviceSecurityEventListener { *; }
+-keep class cn.com.aratek.dev.DeviceSecurityManager { *; }
+-keep class cn.com.aratek.dev.ExportedGpio { *; }
+-keep class cn.com.aratek.dev.Terminal { *; }
+-keep class cn.com.aratek.dev.WatchdogManager { *; }
+-keep class cn.com.aratek.dev.Wiegand { *; }
+-keep class cn.com.aratek.fp.Bione { *; }
+-keep class cn.com.aratek.fp.FingerprintImage { *; }
+-keep class cn.com.aratek.fp.FingerprintScanner { *; }
+-keep class cn.com.aratek.qrc.CodeScanner { *; }
+-keep class cn.com.aratek.util.Result { *; }
+-keep class com.cognaxon.WSQlib { *; }
+-keep class cn.com.pixsur.pirisbsp.* { *; }
+-keep class org.identy.** { *; }
+-keep class com.identy.** { *; }
